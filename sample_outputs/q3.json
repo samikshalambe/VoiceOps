@@ -1,7 +1,7 @@
 {
   "file": "q3.wav",
   "heard": "hello i need help with my order",
-  "reply": "I'm ZentroMart's AI assistant. To help you with your order, could you please share your order ID and the last 4 digits of your registered phone?",
+  "reply": "I'm ZentroMart's AI assistant. Could you please share your order ID so I can help you with your order?",
   "decision": "clarify",
   "tool_calls": [],
   "retrieved": [

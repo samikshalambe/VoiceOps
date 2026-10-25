@@ -1,9 +1,11 @@
 {
   "file": "q2.wav",
   "heard": "can i schedule a delivery at midnight",
-  "reply": "I'm ZentroMart's AI assistant. We do not offer midnight delivery slots as our deliveries take place during regular business hours.",
-  "decision": "answer",
-  "tool_calls": [],
+  "reply": "I'm ZentroMart's AI assistant. I do not have that information, so let me connect you with a human colleague who can help. Your ticket number is TKT8282d8b74b034677aff9c82ea31374ff.",
+  "decision": "escalate",
+  "tool_calls": [
+    "create_ticket()"
+  ],
   "retrieved": [
     "DEL-4",
     "DEL-1",

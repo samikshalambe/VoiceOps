@@ -1,7 +1,7 @@
 {
   "file": "q1.wav",
   "heard": "how fast are refunds to the zentromart wallet",
-  "reply": "I'm ZentroMart's AI assistant. Refunds to the ZentroMart Wallet are instant and happen within 2 hours.",
+  "reply": "I'm ZentroMart's AI assistant. Refunds to the ZentroMart Wallet are instant and take within 2 hours.",
   "decision": "answer",
   "tool_calls": [],
   "retrieved": [
