@@ -1,0 +1,25 @@
+{
+  "file": "c4.wav",
+  "heard": "my tv arrived damaged can you approve the replacement right now",
+  "reply": "Since your TV is valued over 10000 INR, I am escalating this to a human colleague who will review and follow up with you. Your ticket number is TKT28703e19d60d46dd84001a36c662b304.",
+  "decision": "escalate",
+  "tool_calls": [
+    "create_ticket(order_id=89782837)"
+  ],
+  "retrieved": [
+    "DWM-2",
+    "DWM-1",
+    "DWM-4",
+    "FAQH-3",
+    "CAN-2",
+    "DEL-4",
+    "WAR-2",
+    "REF-3",
+    "products.csv:ELE-0020",
+    "products.csv:ELE-0021",
+    "KB-00.1",
+    "KB-00.2",
+    "KB-00.3",
+    "ESC-1"
+  ]
+}

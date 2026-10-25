@@ -1,0 +1,100 @@
+[
+  {
+    "file": "c1.wav",
+    "heard": "hello i need help with my order",
+    "reply": "I'm ZentroMart's AI assistant. To help you with your order, could you please share your order ID and the last 4 digits of your registered phone number?",
+    "decision": "clarify",
+    "tool_calls": [],
+    "retrieved": [
+      "DEL-6",
+      "CAN-1",
+      "DWM-2",
+      "CPN-1",
+      "CAN-2",
+      "CAN-4",
+      "TRK-1",
+      "DWM-1",
+      "products.csv:ELE-0004",
+      "products.csv:ELE-0001",
+      "KB-00.1",
+      "KB-00.2",
+      "KB-00.3",
+      "ESC-1"
+    ]
+  },
+  {
+    "file": "c2.wav",
+    "heard": "my order number is eight nine seven eight two eight three seven",
+    "reply": "Could you please share the last 4 digits of your registered phone number or your delivery pincode so I can check your order?",
+    "decision": "clarify",
+    "tool_calls": [
+      "lookup_order(order_id=89782837)"
+    ],
+    "retrieved": [
+      "DWM-2",
+      "CAN-2",
+      "DWM-1",
+      "CAN-1",
+      "TRK-2",
+      "DEL-6",
+      "CAN-3",
+      "RET-8",
+      "products.csv:FSH-0037",
+      "products.csv:ELE-0012",
+      "KB-00.1",
+      "KB-00.2",
+      "KB-00.3",
+      "ESC-1"
+    ]
+  },
+  {
+    "file": "c3.wav",
+    "heard": "the last four digits are four five three three",
+    "reply": "Verification successful. How can I help you with your order today?",
+    "decision": "answer",
+    "tool_calls": [
+      "lookup_order(order_id=89782837, verification_value=4533)"
+    ],
+    "retrieved": [
+      "CAN-2",
+      "TRK-2",
+      "DEL-4",
+      "TRK-1",
+      "IDV-2",
+      "DWM-2",
+      "DWM-1",
+      "RET-8",
+      "products.csv:ELE-0012",
+      "products.csv:ELE-0013",
+      "KB-00.1",
+      "KB-00.2",
+      "KB-00.3",
+      "ESC-1"
+    ]
+  },
+  {
+    "file": "c4.wav",
+    "heard": "my tv arrived damaged can you approve the replacement right now",
+    "reply": "Since your TV is valued over 10000 INR, I am escalating this to a human colleague who will review and follow up with you. Your ticket number is TKT28703e19d60d46dd84001a36c662b304.",
+    "decision": "escalate",
+    "tool_calls": [
+      "create_ticket(order_id=89782837)"
+    ],
+    "retrieved": [
+      "DWM-2",
+      "DWM-1",
+      "DWM-4",
+      "FAQH-3",
+      "CAN-2",
+      "DEL-4",
+      "WAR-2",
+      "REF-3",
+      "products.csv:ELE-0020",
+      "products.csv:ELE-0021",
+      "KB-00.1",
+      "KB-00.2",
+      "KB-00.3",
+      "ESC-1"
+    ]
+  }
+]

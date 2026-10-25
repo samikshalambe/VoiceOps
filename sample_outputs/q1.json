@@ -1,0 +1,23 @@
+{
+  "file": "q1.wav",
+  "heard": "how fast are refunds to the zentromart wallet",
+  "reply": "I'm ZentroMart's AI assistant. Refunds to the ZentroMart Wallet are instant and happen within 2 hours.",
+  "decision": "answer",
+  "tool_calls": [],
+  "retrieved": [
+    "REF-1",
+    "REF-2",
+    "PAY-4",
+    "REF-3",
+    "MKS-2",
+    "RET-7",
+    "FAQH-2",
+    "RET-1",
+    "products.csv:DGT-0070",
+    "products.csv:DGT-0069",
+    "KB-00.1",
+    "KB-00.2",
+    "KB-00.3",
+    "ESC-1"
+  ]
+}

@@ -1,0 +1,10 @@
+.env
+.venv/
+__pycache__/
+chunk_embeddings.json
+query_cache.json
+step*_results.csv
+conv_results*.csv
+eval_results/
+Capstone_Project_Dataset_FTTT_2026/
+*.zip

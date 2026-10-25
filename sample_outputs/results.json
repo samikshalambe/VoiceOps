@@ -1,0 +1,71 @@
+[
+  {
+    "file": "q1.wav",
+    "heard": "how fast are refunds to the zentromart wallet",
+    "reply": "I'm ZentroMart's AI assistant. Refunds to the ZentroMart Wallet are instant and happen within 2 hours.",
+    "decision": "answer",
+    "tool_calls": [],
+    "retrieved": [
+      "REF-1",
+      "REF-2",
+      "PAY-4",
+      "REF-3",
+      "MKS-2",
+      "RET-7",
+      "FAQH-2",
+      "RET-1",
+      "products.csv:DGT-0070",
+      "products.csv:DGT-0069",
+      "KB-00.1",
+      "KB-00.2",
+      "KB-00.3",
+      "ESC-1"
+    ]
+  },
+  {
+    "file": "q2.wav",
+    "heard": "can i schedule a delivery at midnight",
+    "reply": "I'm ZentroMart's AI assistant. We do not offer midnight delivery slots as our deliveries take place during regular business hours.",
+    "decision": "answer",
+    "tool_calls": [],
+    "retrieved": [
+      "DEL-4",
+      "DEL-1",
+      "DEL-3",
+      "DWM-1",
+      "CAN-3",
+      "DEL-2",
+      "DEL-6",
+      "FAQ-3",
+      "products.csv:ELE-0010",
+      "products.csv:GRO-0062",
+      "KB-00.1",
+      "KB-00.2",
+      "KB-00.3",
+      "ESC-1"
+    ]
+  },
+  {
+    "file": "q3.wav",
+    "heard": "hello i need help with my order",
+    "reply": "I'm ZentroMart's AI assistant. To help you with your order, could you please share your order ID and the last 4 digits of your registered phone?",
+    "decision": "clarify",
+    "tool_calls": [],
+    "retrieved": [
+      "DEL-6",
+      "CAN-1",
+      "DWM-2",
+      "CPN-1",
+      "CAN-2",
+      "CAN-4",
+      "TRK-1",
+      "DWM-1",
+      "products.csv:ELE-0004",
+      "products.csv:ELE-0001",
+      "KB-00.1",
+      "KB-00.2",
+      "KB-00.3",
+      "ESC-1"
+    ]
+  }
+]

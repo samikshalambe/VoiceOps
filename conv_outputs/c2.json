@@ -1,0 +1,25 @@
+{
+  "file": "c2.wav",
+  "heard": "my order number is eight nine seven eight two eight three seven",
+  "reply": "Could you please share the last 4 digits of your registered phone number or your delivery pincode so I can check your order?",
+  "decision": "clarify",
+  "tool_calls": [
+    "lookup_order(order_id=89782837)"
+  ],
+  "retrieved": [
+    "DWM-2",
+    "CAN-2",
+    "DWM-1",
+    "CAN-1",
+    "TRK-2",
+    "DEL-6",
+    "CAN-3",
+    "RET-8",
+    "products.csv:FSH-0037",
+    "products.csv:ELE-0012",
+    "KB-00.1",
+    "KB-00.2",
+    "KB-00.3",
+    "ESC-1"
+  ]
+}

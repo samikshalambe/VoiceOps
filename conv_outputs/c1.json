@@ -1,0 +1,23 @@
+{
+  "file": "c1.wav",
+  "heard": "hello i need help with my order",
+  "reply": "I'm ZentroMart's AI assistant. To help you with your order, could you please share your order ID and the last 4 digits of your registered phone number?",
+  "decision": "clarify",
+  "tool_calls": [],
+  "retrieved": [
+    "DEL-6",
+    "CAN-1",
+    "DWM-2",
+    "CPN-1",
+    "CAN-2",
+    "CAN-4",
+    "TRK-1",
+    "DWM-1",
+    "products.csv:ELE-0004",
+    "products.csv:ELE-0001",
+    "KB-00.1",
+    "KB-00.2",
+    "KB-00.3",
+    "ESC-1"
+  ]
+}

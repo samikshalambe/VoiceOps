@@ -1,0 +1,23 @@
+{
+  "file": "q2.wav",
+  "heard": "can i schedule a delivery at midnight",
+  "reply": "I'm ZentroMart's AI assistant. We do not offer midnight delivery slots as our deliveries take place during regular business hours.",
+  "decision": "answer",
+  "tool_calls": [],
+  "retrieved": [
+    "DEL-4",
+    "DEL-1",
+    "DEL-3",
+    "DWM-1",
+    "CAN-3",
+    "DEL-2",
+    "DEL-6",
+    "FAQ-3",
+    "products.csv:ELE-0010",
+    "products.csv:GRO-0062",
+    "KB-00.1",
+    "KB-00.2",
+    "KB-00.3",
+    "ESC-1"
+  ]
+}

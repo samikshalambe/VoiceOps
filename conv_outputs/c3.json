@@ -1,0 +1,25 @@
+{
+  "file": "c3.wav",
+  "heard": "the last four digits are four five three three",
+  "reply": "Verification successful. How can I help you with your order today?",
+  "decision": "answer",
+  "tool_calls": [
+    "lookup_order(order_id=89782837, verification_value=4533)"
+  ],
+  "retrieved": [
+    "CAN-2",
+    "TRK-2",
+    "DEL-4",
+    "TRK-1",
+    "IDV-2",
+    "DWM-2",
+    "DWM-1",
+    "RET-8",
+    "products.csv:ELE-0012",
+    "products.csv:ELE-0013",
+    "KB-00.1",
+    "KB-00.2",
+    "KB-00.3",
+    "ESC-1"
+  ]
+}
